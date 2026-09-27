@@ -1,4 +1,4 @@
-package Lap2;
+package Lab2;
 
 public class CardUtil {
     public static final Card.Rank HIGHEST_RANK = Card.Rank.ACE;

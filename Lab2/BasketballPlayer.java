@@ -1,4 +1,4 @@
-package Lap2;
+package Lab2;
 
 public class BasketballPlayer extends Player{
     public BasketballPlayer (String n, int j){

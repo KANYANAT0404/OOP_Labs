@@ -1,4 +1,4 @@
-package Lap2;
+package Lab2;
 
         public class ClubTest {
             public static void main(String[] args) {
