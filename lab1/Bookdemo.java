@@ -1,4 +1,4 @@
-package lab1;
+package Lab1;
 
 public class Bookdemo {
     public static void main(String[] args) {
