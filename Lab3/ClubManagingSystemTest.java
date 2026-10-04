@@ -1,7 +1,4 @@
-import Lab3.Club;
-import Lab3.ESportsClub;
-import Lab3.MarketingClub;
-import Lab3.SportsClub;
+package Lab3;
 
     public class ClubManagingSystemTest {
     public static void main(String[] args) {

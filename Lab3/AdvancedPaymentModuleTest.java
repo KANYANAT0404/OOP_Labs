@@ -1,5 +1,6 @@
+package Lab3;
 
-    public class AdvancedPaymentModuleTest {
+public class AdvancedPaymentModuleTest {
     public static void main(String[] args) {
         AdvancedPaymentModule apm = new AdvancedPaymentModule(0);
 

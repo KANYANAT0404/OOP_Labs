@@ -1,4 +1,4 @@
-
+package Lab3;
     public class PaymentModule {
     protected double totalPay; 
 

@@ -1,5 +1,5 @@
-import Lab3.Club;
-import Lab3.SportsClub;
+package Lab3;
+
 
 public class ClubManagingSystem {
     private Club[] clubList;

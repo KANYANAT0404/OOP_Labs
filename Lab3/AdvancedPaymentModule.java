@@ -1,4 +1,4 @@
-
+package Lab3;
     public class AdvancedPaymentModule extends PaymentModule {
 
     public AdvancedPaymentModule(double initialPay) {
