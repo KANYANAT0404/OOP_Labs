@@ -9,6 +9,9 @@ package Lab2;
         public void setHusband(Father husband){
             this.husband = husband;
         }
+        public Father getHusband(){
+            return husband;
+        }
         @Override 
         public String getFirstName(){
             return "Ms." + super.getFirstName();
