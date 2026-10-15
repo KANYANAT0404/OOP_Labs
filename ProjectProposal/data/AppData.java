@@ -1,16 +1,16 @@
-        package ProjectProposal.data;
-        import java.util.ArrayList;
-        import ProjectProposal.system.Exportable;
-        
-        public class AppData {
+package ProjectProposal.data;
 
-            private static final ArrayList<Exportable> products = new ArrayList<>();
+import java.util.ArrayList;
+import ProjectProposal.system.Exportable;
 
-            private AppData() {
-            }
+public class AppData {
 
-            public static ArrayList<Exportable> getProducts() {
-                return products;
-            }
-        }
+    private static final ArrayList<Exportable> products = new ArrayList<>();
 
+    private AppData() {
+    }
+
+    public static ArrayList<Exportable> getProducts() {
+        return products;
+    }
+}

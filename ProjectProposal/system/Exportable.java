@@ -1,10 +1,12 @@
-        package ProjectProposal.system;
-          
-            public interface Exportable {
+package ProjectProposal.system;
 
-            String getBatchId();
-            String getDestinationCountry();
-            double calculateTotalPrice();
-            String getDescription();
-        }
+public interface Exportable {
 
+    String getBatchId();
+
+    String getDestinationCountry();
+
+    double calculateTotalPrice();
+
+    String getDescription();
+}

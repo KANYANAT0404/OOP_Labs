@@ -1,29 +1,28 @@
-        package ProjectProposal.system;
-           
-        public class ChickenParts extends ChickenProduct {
+package ProjectProposal.system;
 
-            private String partType;
+public class ChickenParts extends ChickenProduct {
 
-            public ChickenParts(String batchId, String destinationCountry,
-                                double weightKg, double pricePerKg, String partType) {
-                super(batchId, destinationCountry, weightKg, pricePerKg);
-                this.partType = partType;
-            }
+    private String partType;
 
-            public String getPartType() {
-                return partType;
-            }
+    public ChickenParts(String batchId, String destinationCountry,
+            double weightKg, double pricePerKg, String partType) {
+        super(batchId, destinationCountry, weightKg, pricePerKg);
+        this.partType = partType;
+    }
 
-            public void setPartType(String partType) {
-                this.partType = partType;
-            }
+    public String getPartType() {
+        return partType;
+    }
 
-            @Override
-            public String getDescription() {
-                return String.format(
-                        "[Chicken Parts] Batch %s | Country: %s | Part: %s | Weight: %.2f kg | Price/kg: %.2f | Total: %.2f",
-                        getBatchId(), getDestinationCountry(), partType,
-                        getWeightKg(), getPricePerKg(), calculateTotalPrice());
-            }
-        }
+    public void setPartType(String partType) {
+        this.partType = partType;
+    }
 
+    @Override
+    public String getDescription() {
+        return String.format(
+                "[Chicken Parts] Batch %s | Country: %s | Part: %s | Weight: %.2f kg | Price/kg: %.2f | Total: %.2f",
+                getBatchId(), getDestinationCountry(), partType,
+                getWeightKg(), getPricePerKg(), calculateTotalPrice());
+    }
+}
